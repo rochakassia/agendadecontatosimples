@@ -9,3 +9,11 @@ No projeto há algumas escolhas:
 4 - Atualizar (você atualiza a lista após adicionar ou remover)
 5 - Buscar (você busca um contato já salvo)
 0 - Sair (você sai da agenda de contatos)
+
+CRUD é um conceito básico em programação que representa as 4 operações principais feitas com dados.
+O que significa CRUD?
+CRUD é a sigla para:
+C → Create (Criar) ex: Agenda.adicionarContato(c); Cria um novo contato no arquivo.
+R → Read (Ler) ex: Agenda.listarContatos(); Agenda.buscarContato("Maria"); Mostra os contatos salvos.
+U → Update (Atualizar) ex: Agenda.atualizarContato("Maria", novoContato); Atualiza as informações de um contato.
+D → Delete (Deletar) ex: Agenda.removerContato("Maria"); Apaga o contato do arquivo.
